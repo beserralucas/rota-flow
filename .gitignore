@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local database and backups
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/backups/*
+!data/backups/.gitkeep
+
+# Generated exports
+data/exports/*
+!data/exports/.gitkeep
+
+# Local input files (keep only example)
+data/input/*
+!data/input/.gitkeep
